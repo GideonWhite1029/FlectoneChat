@@ -1,8 +1,5 @@
-#  █▀ █   ██▀ ▄▀▀ ▀█▀ ▄▀▄ █▄ █ ██▀ ▄▀▀ █▄█ ▄▀▄ ▀█▀
-#  █▀ █▄▄ █▄▄ ▀▄▄  █  ▀▄▀ █ ▀█ █▄▄ ▀▄▄ █ █ █▀█  █
-#
-# You are advised to check out our plugin documentation
-# https://chat.flectone.net/docs
+#  █▀ █   ██▀ ▄▀▀ ▀█▀ ▄▀▄ █▄ █ ██▀ ▄▀▀ █▄█ ▄▀▄ ▀█▀ █▀▄ ██▀ ██▄ ▄▀▄ █▀▄ █▄ █
+#  █▀ █▄▄ █▄▄ ▀▄▄  █  ▀▄▀ █ ▀█ █▄▄ ▀▄▄ █ █ █▀█  █  █▀▄ █▄▄ █▄█ ▀▄▀ █▀▄ █ ▀█
 
 PlaceholderAPI:
   enable: true

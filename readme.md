@@ -4,19 +4,17 @@
 
 **[Documentation](https://chat.flectone.net/docs/)** | **[Spigotmc](https://www.spigotmc.org/resources/flectonechat.89411/)** | **[Modrinth](https://modrinth.com/plugin/flectonechat)** | **[Github](https://github.com/Flectone/FlectoneChat)**
 
-# (NO MORE UPDATES) FlectoneChat - personalize your minecraft server!
+# FlectoneChatReborn - personalize your minecraft server!
 
-FlectoneChat is a modern plugin for Spigot servers that is designed to improve gameplay without interfering with it, and
+# This is a fork of the official FlectoneChat, because the original one is no longer going to be updated
+
+FlectoneChatReborn is a modern plugin for Spigot servers that is designed to improve gameplay without interfering with it, and
 focuses on improving chat.\
 **[Features](#Features)** | **[Integrations](#Integrations)** | **[Commands](#Commands)** | **[bStats](#bStats)**
 
   </div>
 
 </p>
-
-
-# Video Tutorial (Russian)
-[![Russian Video Tutorial](https://i.ytimg.com/vi/7_WOJbr51Cg/maxresdefault.jpg)](https://www.youtube.com/watch?v=7_WOJbr51Cg)
 
 # Features
 
@@ -98,4 +96,4 @@ Check out all modules in the **[official documentation](https://chat.flectone.ne
 `/afk`, `/ball`, `/ban`, `/banlist`, `/me`, `/broadcast`, `/chatcolor`, `/chatsettings`, `/clearchat`, `/firstonline`, `/flectonechat`, `/geolocate`, `/helper`, `/ignore`, `/ignorelist`, `/kick`, `/lastonline`, `/mail`, `/clearmail`, `/maintenance`, `/mark`, `/tell`, `/mute`, `/mutelist`, `/ping`, `/poll`, `/reply`, `/spit`, `/spy`, `/stream`, `/tictactoe`, `/try`, `/dice`, `/unban`, `/unmute`, `/warn`, `/unwarn`, `/warnlist`, `/geolocate`, `/translateto`
 # bStats
 
-<a href="https://bstats.org/plugin/bukkit/FlectoneChat" rel="noopener nofollow ugc"><img src="https://bstats.org/signatures/bukkit/FlectoneChat.svg" alt=""></a>
+<a href="https://bstats.org/plugin/bukkit/FlectoneChatReborn" rel="noopener nofollow ugc"><img src="https://bstats.org/signatures/bukkit/FlectoneChatReborn.svg" alt=""></a>

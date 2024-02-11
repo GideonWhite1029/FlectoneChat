@@ -1,15 +1,12 @@
-#  █▀ █   ██▀ ▄▀▀ ▀█▀ ▄▀▄ █▄ █ ██▀ ▄▀▀ █▄█ ▄▀▄ ▀█▀
-#  █▀ █▄▄ █▄▄ ▀▄▄  █  ▀▄▀ █ ▀█ █▄▄ ▀▄▄ █ █ █▀█  █
-#
-# Советуем ознакомиться с нашей документацией плагина
-# https://chat.flectone.net/docs
+#  █▀ █   ██▀ ▄▀▀ ▀█▀ ▄▀▄ █▄ █ ██▀ ▄▀▀ █▄█ ▄▀▄ ▀█▀ █▀▄ ██▀ ██▄ ▄▀▄ █▀▄ █▄ █
+#  █▀ █▄▄ █▄▄ ▀▄▄  █  ▀▄▀ █ ▀█ █▄▄ ▀▄▄ █ █ █▀█  █  █▀▄ █▄▄ █▄█ ▀▄▀ █▀▄ █ ▀█
 
 default:
   server:
     brand:
       message:
-        - "&bFlectoneChat"
-        - "&fFlectoneChat"
+        - "&bFlectoneChatReborn"
+        - "&fFlectoneChatReborn"
 
     tab:
       header:
@@ -24,20 +21,19 @@ default:
       footer:
         message:
           - " "
-          - "&&1FlectoneChat"
+          - "&&1FlectoneChatReborn"
           - " "
           - "<next>"
           - " "
-          - "&&2FlectoneChat"
+          - "&&2FlectoneChatReborn"
           - " "
 
     status:
       motd:
         message:
-        - "&&1Этот сервер использует &&2FlectoneChat"
+        - "&&1Этот сервер использует &&2FlectoneChatReborn"
         - "&&1Добро пожаловать на наш сервер!"
         - "&&1Присоединяйтесь к нам и наслаждайтесь уникальным опытом игры!"
-        - "&&1Присоединяйтесь к нашему Discord-серверу для общения и обновлений: &&2https://discord.flectone.net"
         - "&&1У нас дружелюбное сообщество - будьте вежливы и уважайте друг друга!"
         - "&&1Приятной игры! Если у вас есть вопросы, обращайтесь к администрации"
 
@@ -153,12 +149,8 @@ default:
   auto-message:
     message:
       - "&&1-------------- "
-      - "&&2Этот сервер использует [FlectoneChat](https://chat.flectone.net/) "
+      - "&&2Этот сервер использует FlectoneChatReborn"
       - "&&1-------------- "
-      - "<next>"
-      - "&&1❝ "
-      - "&&1Заходи в наш дискорд &&2https://discord.flectone.net "
-      - "&&1❠ "
 
   commands:
     null-player: "#ff4e4e⁉ Игрок не найден"
@@ -188,7 +180,7 @@ default:
     tab-complete:
       message: "(сообщение)"
       reason: "(причина)"
-      stream-url: "https://flectone.net"
+      stream-url: ""
       source-language: "(исходный)"
       target-language: "(выбранный)"
 

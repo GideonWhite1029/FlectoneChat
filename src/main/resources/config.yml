@@ -1,11 +1,8 @@
-#  █▀ █   ██▀ ▄▀▀ ▀█▀ ▄▀▄ █▄ █ ██▀ ▄▀▀ █▄█ ▄▀▄ ▀█▀
-#  █▀ █▄▄ █▄▄ ▀▄▄  █  ▀▄▀ █ ▀█ █▄▄ ▀▄▄ █ █ █▀█  █
-#
-# You are advised to check out our plugin documentation
-# https://chat.flectone.net/docs
+#  █▀ █   ██▀ ▄▀▀ ▀█▀ ▄▀▄ █▄ █ ██▀ ▄▀▀ █▄█ ▄▀▄ ▀█▀ █▀▄ ██▀ ██▄ ▄▀▄ █▀▄ █▄ █
+#  █▀ █▄▄ █▄▄ ▀▄▄  █  ▀▄▀ █ ▀█ █▄▄ ▀▄▄ █ █ █▀█  █  █▀▄ █▄▄ █▄█ ▀▄▀ █▀▄ █ ▀█
 
 plugin:
-  version: 4.5.1
+  version: 4.5.2
 
   language: en
 

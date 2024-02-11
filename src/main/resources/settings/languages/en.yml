@@ -1,15 +1,12 @@
-#  █▀ █   ██▀ ▄▀▀ ▀█▀ ▄▀▄ █▄ █ ██▀ ▄▀▀ █▄█ ▄▀▄ ▀█▀
-#  █▀ █▄▄ █▄▄ ▀▄▄  █  ▀▄▀ █ ▀█ █▄▄ ▀▄▄ █ █ █▀█  █
-#
-# You are advised to check out our plugin documentation
-# https://chat.flectone.net/docs
+#  █▀ █   ██▀ ▄▀▀ ▀█▀ ▄▀▄ █▄ █ ██▀ ▄▀▀ █▄█ ▄▀▄ ▀█▀ █▀▄ ██▀ ██▄ ▄▀▄ █▀▄ █▄ █
+#  █▀ █▄▄ █▄▄ ▀▄▄  █  ▀▄▀ █ ▀█ █▄▄ ▀▄▄ █ █ █▀█  █  █▀▄ █▄▄ █▄█ ▀▄▀ █▀▄ █ ▀█
 
 default:
   server:
     brand:
       message:
-        - "&bFlectoneChat"
-        - "&fFlectoneChat"
+        - "&bFlectoneChatReborn"
+        - "&fFlectoneChatReborn"
 
     tab:
       header:
@@ -24,20 +21,19 @@ default:
       footer:
         message:
           - " "
-          - "&&1FlectoneChat"
+          - "&&1FlectoneChatReborn"
           - " "
           - "<next>"
           - " "
-          - "&&2FlectoneChat"
+          - "&&2FlectoneChatReborn"
           - " "
 
     status:
       motd:
         message:
-          - "&&1This server uses &&2FlectoneChat"
+          - "&&1This server uses &&2FlectoneChatReborn"
           - "&&1Welcome to our server!"
           - "&&1Join us and enjoy a unique game experience!"
-          - "&&1Join our Discord server for communication and updates: &&2https://discord.flectone.net"
           - "&&1We have a friendly community - be polite and respect each other!"
           - "&&1Enjoy the game! If you have any questions, feel free to contact the administration"
 
@@ -153,12 +149,8 @@ default:
   auto-message:
     message:
       - "&&1-------------- "
-      - "&&2This server uses [FlectoneChat](https://chat.flectone.net/) "
+      - "&&2This server uses FlectoneChatReborn "
       - "&&1-------------- "
-      - "<next>"
-      - "&&1❝ "
-      - "&&1Join our discord &&2https://discord.flectone.net "
-      - "&&1❠ "
 
   commands:
     null-player: "#ff4e4e⁉ This player does not exist"
@@ -188,7 +180,7 @@ default:
     tab-complete:
       message: "(message)"
       reason: "(reason)"
-      stream-url: "https://flectone.net"
+      stream-url: ""
       source-language: "(source)"
       target-language: "(target)"
 

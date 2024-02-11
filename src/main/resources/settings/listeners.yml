@@ -1,8 +1,5 @@
-#  █▀ █   ██▀ ▄▀▀ ▀█▀ ▄▀▄ █▄ █ ██▀ ▄▀▀ █▄█ ▄▀▄ ▀█▀
-#  █▀ █▄▄ █▄▄ ▀▄▄  █  ▀▄▀ █ ▀█ █▄▄ ▀▄▄ █ █ █▀█  █
-#
-# You are advised to check out our plugin documentation
-# https://chat.flectone.net/docs
+#  █▀ █   ██▀ ▄▀▀ ▀█▀ ▄▀▄ █▄ █ ██▀ ▄▀▀ █▄█ ▄▀▄ ▀█▀ █▀▄ ██▀ ██▄ ▄▀▄ █▀▄ █▄ █
+#  █▀ █▄▄ █▄▄ ▀▄▄  █  ▀▄▀ █ ▀█ █▄▄ ▀▄▄ █ █ █▀█  █  █▀▄ █▄▄ █▄█ ▀▄▀ █▀▄ █ ▀█
 #
 #  LOWEST - Event call is of very low importance and should be run first, to allow other plugins to further customise the outcome
 #  LOW - Event call is of low importance

@@ -3,8 +3,8 @@ plugins {
     id 'com.github.johnrengelman.shadow' version '8.1.1'
 }
 
-group = 'net'
-version = '4.5.1'
+group = 'net.flectone.chat.reborn'
+version = '4.5.2'
 
 repositories {
     mavenCentral()
@@ -55,23 +55,23 @@ repositories {
 dependencies {
     implementation files("LICENSE")
 
-    implementation "com.iridium:IridiumColorAPI:1.0.6"
+    implementation "com.iridium:IridiumColorAPI:${project.iridiumcolorapi}"
     implementation 'org.jetbrains:annotations:24.0.0'
 
-    compileOnly "su.plo.voice.api:server:2.0.3"
+    compileOnly "su.plo.voice.api:server:${project.plasmovoice_api}"
 
-    compileOnly 'net.skinsrestorer:skinsrestorer-api:15.0.4'
+    compileOnly "net.skinsrestorer:skinsrestorer-api:${project.skinsrestorer_api}"
 
-    compileOnly "com.loohp:InteractiveChat:4.2.7.2"
-    compileOnly "com.github.MilkBowl:VaultAPI:1.7.1"
-    compileOnly "me.clip:placeholderapi:2.11.3"
-    compileOnly "de.maxhenkel.voicechat:voicechat-api:2.4.11"
-    compileOnly "net.luckperms:api:5.4"
-    compileOnly "com.github.LeonMangler:SuperVanish:6.2.17"
-    compileOnly "com.discordsrv:discordsrv:1.25.1"
-    compileOnly "net.md-5:bungeecord-api:1.16-R0.3"
+    compileOnly "com.loohp:InteractiveChat:${project.interactivechat_version}"
+    compileOnly "com.github.MilkBowl:VaultAPI:${project.vault_api}"
+    compileOnly "me.clip:placeholderapi:${project.placeholder_api}"
+    compileOnly "de.maxhenkel.voicechat:voicechat-api:${project.voicechat_api}"
+    compileOnly "net.luckperms:api:${project.luckperms_api}"
+    compileOnly "com.github.LeonMangler:SuperVanish:${project.super_vanish}"
+    compileOnly "com.discordsrv:discordsrv:${project.discordsrv_version}"
+    compileOnly "net.md-5:bungeecord-api:${project.bungeecord_api}"
 
-    compileOnly "org.spigotmc:spigot-api:1.16.5-R0.1-SNAPSHOT"
+    compileOnly "org.spigotmc:spigot-api:${project.spigot_version}"
 
     compileOnly 'org.projectlombok:lombok:1.18.30'
     annotationProcessor 'org.projectlombok:lombok:1.18.30'
@@ -107,7 +107,7 @@ processResources {
 }
 
 shadowJar {
-    archiveFileName = "FlectoneChat-" + version + ".jar"
+    archiveFileName = "FlectoneChatReborn-" + version + ".jar"
     dependencies {
         exclude(dependency('org.jetbrains:annotations:24.0.0'))
     }
