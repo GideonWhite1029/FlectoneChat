@@ -2,6 +2,8 @@ name: Build Gradle project
 
 on:
   push:
+    branches:
+      - master
 
 jobs:
   build-gradle-project:
@@ -24,5 +26,5 @@ jobs:
       - name: Publish artifact
         uses: actions/upload-artifact@v3
         with:
-          name: FlectoneChat
+          name: FlectoneChatReborn
           path: build/libs
